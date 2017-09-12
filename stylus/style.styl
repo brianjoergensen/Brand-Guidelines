@@ -1,0 +1,361 @@
+body
+    background url("https://skin.sharkgaming.dk/skin/frontend/ultimo/default/images/asfalt.png") repeat fixed
+
+section
+    float left
+    margin-top 100px
+    width 100%
+
+title
+    font-size 22px
+    display block
+    font-family "Play", sans-serif
+    font-weight 400
+    color #fff
+
+title
+    &:after
+        content ''
+        display block
+        width 100px
+        height 2px
+        background-color #0373FD
+        margin 30px 0
+
+h1
+    font-size 14px
+    display inline-block
+    font-family "Play", sans-serif
+    font-weight 400
+    color #fff
+    background-color #0373FD
+    padding 10px
+    margin 0 0 30px 0
+    text-transform uppercase
+    position relative
+    border-radius 0 0 0 4px
+
+    &after
+        content ''
+        position absolute
+        display block
+        width 100%
+        height 100%
+        top 0
+        left 0
+        z-index -1
+        transform-origin top right
+        -webkit-transform-origin top right
+        -moz-transform-origin top right
+        -ms-transform-origin top right
+        transform skew(30deg)
+        -webkit-transform skew(30deg)
+        -moz-transform skew(30deg)
+        -ms-transform skew(30deg)
+        background-color #0373FD
+
+h1
+    &:nth-child(n+3)
+        margin-top 100px
+
+p
+    line-height 24px
+    color #bbb
+    font-family 'Open Sans', sans-serif
+    font-size 16px
+    margin 0
+
+.hero-banner
+    width 100%
+    height 400px
+    background url("https//media.sharkgaming.dk/media/wysiwyg/hero-banner-bg.jpg") center center no-repeat
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+
+.logo
+    width 150px
+    display block
+    margin 0 auto
+
+.content
+    width 100%
+    max-width 960px
+    margin 0 auto
+
+ul
+    .brandGuidelinesList-3col, 
+    .brandGuidelinesList-2col,
+    .brandGuidelinesList-1col
+        margin 5% 0 0 0
+        padding 0
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        -webkit-flex-wrap wrap
+        -ms-flex-wrap wrap
+        flex-wrap wrap
+
+ul
+    .brandGuidelinesList-3col
+        li
+            width 30%
+            margin-right 5%
+
+ul
+    .brandGuidelinesList-2col
+        li
+            width 47.5%
+            margin-right 5%
+
+ul
+    .brandGuidelinesList-1col
+        li
+            width 100%
+
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col,
+    .brandGuidelinesList-1col
+        li
+            height auto
+            display inline-block
+            -webkit-box-sizing border-box
+            box-sizing border-box
+            border 2px solid #252525
+            padding 20px
+            background rgba(255, 255, 255, 0.02)
+            position relative
+
+ul
+    .brandGuidelinesList-3col
+        li
+            &:nth-child(3n)
+                margin-right 0%
+
+ul
+    .brandGuidelinesList-2col
+        li
+            &:nth-child(2n)
+                margin-right 0%
+
+ul
+    .brandGuidelinesList-3col
+        li
+            &:nth-child(n+4)
+                margin-top 5%
+
+ul
+    .brandGuidelinesList-2col
+        li
+            &:nth-child(n+3)
+                margin-top 5%
+
+ul
+    .brandGuidelinesList-1col
+        li
+            &:nth-child(n+2)
+                margin-top 5%
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col,
+    .brandGuidelinesList-1col
+        li
+            p
+                margin-top 20px
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col,
+    .brandGuidelinesList-1col
+        li
+            img
+                max-width 100%
+                display block
+                margin 0 auto
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col
+        li
+            img.scaleSkew
+                transform scaleX(-1)
+                -webkit-transform scaleX(-1)
+                -moz-transform scaleX(-1)
+                -ms-transform scaleX(-1)
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col
+        li
+            img.colorized
+                filter hue-rotate(130deg)
+                -webkit-filter hue-rotate(130deg)
+                -moz-filter hue-rotate(130deg)
+                -ms-filter hue-rotate(130deg)
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col
+        li
+            p.correct
+                color #41ad49
+                border-bottom 2px solid #41ad49
+                padding-bottom 10px
+
+ul
+    .brandGuidelinesList-3col,
+    .brandGuidelinesList-2col,
+    .brandGuidelinesList-1col
+        li
+            p.incorrect
+                color #e44061
+                border-bottom 2px solid #e44061
+                padding-bottom 10px
+
+ul
+    .brandGuidelinesList-3col
+    .brandGuidelinesList-2col
+    .brandGuidelinesList-1col
+        li
+            p
+                .correctbefore,
+                .incorrectbefore
+                    content ''
+                    width 24px
+                    height 32px
+                    display inline-block
+                    margin-right 5px
+                    top 10px
+                    position relative
+
+ul.brandGuidelinesList-3col li p.correctbefore,
+ul.brandGuidelinesList-3col li p.incorrectbefore,
+ul.brandGuidelinesList-2col li p.correctbefore,
+ul.brandGuidelinesList-2col li p.incorrectbefore,
+ul.brandGuidelinesList-1col li p.correctbefore,
+  background url("https//media.sharkgaming.dk/media/wysiwyg/correct-icon.svg") bottom left no-repeat
+
+ul.brandGuidelinesList-3col li p.incorrectbefore,
+ul.brandGuidelinesList-2col li p.incorrectbefore,
+ul.brandGuidelinesList-1col li p.incorrectbefore
+  background url("https//media.sharkgaming.dk/media/wysiwyg/incorrect-icon.svg") bottom left no-repeat
+
+ul.brandGuidelinesList-2col li.brandColors, ul.brandGuidelinesList-3col li.brandColors
+  border 0 none
+
+ul.brandGuidelinesList-2col li.brandColors h3, ul.brandGuidelinesList-2col li.brandColors p, ul.brandGuidelinesList-2col li.brandColors h3, ul.brandGuidelinesList-2col li.brandColors p, ul.brandGuidelinesList-3col li.brandColors h3, ul.brandGuidelinesList-3col li.brandColors p, ul.brandGuidelinesList-3col li.brandColors h3, ul.brandGuidelinesList-3col li.brandColors p
+  margin 0
+  font-size 14px
+  display block
+  font-family "Play", sans-serif
+  font-weight 400
+
+ul.brandGuidelinesList-2col li.brandColors.blue p, ul.brandGuidelinesList-2col li.brandColors.blue, ul.brandGuidelinesList-3col li.brandColors.blue p, ul.brandGuidelinesList-3col li.brandColors.blue
+  background-color #0373FD
+  color rgba(255, 255, 255, 0.6)
+
+ul.brandGuidelinesList-2col li.brandColors.white p, ul.brandGuidelinesList-2col li.brandColors.white, ul.brandGuidelinesList-3col li.brandColors.white p, ul.brandGuidelinesList-3col li.brandColors.white
+  background-color #fff
+  color rgba(32, 34, 36, 0.6)
+
+ul.brandGuidelinesList-2col li.brandColors.yellow p, ul.brandGuidelinesList-2col li.brandColors.yellow, ul.brandGuidelinesList-3col li.brandColors.yellow p, ul.brandGuidelinesList-3col li.brandColors.yellow
+  background-color #FFCC06
+  color rgba(32, 34, 36, 0.6)
+
+ul.brandGuidelinesList-2col li.brandColors.black p, ul.brandGuidelinesList-2col li.brandColors, ul.brandGuidelinesList-2col li.brandColors.black p, ul.brandGuidelinesList-2col li.brandColors
+  background-color #202224
+  color rgba(255, 255, 255, 0.6)
+
+.radio label,
+.checkbox label
+  padding-left 25px
+
+input[type="checkbox"]
+  margin 4px 0 0
+
+.radio input[type="radio"],
+.radio input[type="checkbox"],
+.radio-inline input[type="radio"],
+.radio-inline input[type="checkbox"],
+.checkbox input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="radio"],
+.checkbox-inline input[type="checkbox"]
+  -webkit-appearance none
+  margin-left -25px
+
+.radio input[type="radio"]after,
+.radio input[type="checkbox"]after,
+.radio-inline input[type="radio"]after,
+.radio-inline input[type="checkbox"]after,
+.checkbox input[type="radio"]after,
+.checkbox input[type="checkbox"]after,
+.checkbox-inline input[type="radio"]after,
+.checkbox-inline input[type="checkbox"]after
+  border-color rgba(0, 0, 0, 0.54)
+
+.radio input[type="radio"]disableafter,
+.radio input[type="checkbox"]disableafter,
+.radio-inline input[type="radio"]disableafter,
+.radio-inline input[type="checkbox"]disableafter,
+.checkbox input[type="radio"]disableafter,
+.checkbox input[type="checkbox"]disableafter,
+.checkbox-inline input[type="radio"]disableafter,
+.checkbox-inline input[type="checkbox"]disableafter
+  border-color rgba(0, 0, 0, 0.26)
+
+.radio input[type="radio"]focus,
+.radio input[type="checkbox"]focus,
+.radio-inline input[type="radio"]focus,
+.radio-inline input[type="checkbox"]focus,
+.checkbox input[type="radio"]focus,
+.checkbox input[type="checkbox"]focus,
+.checkbox-inline input[type="radio"]focus,
+.checkbox-inline input[type="checkbox"]focus
+  outline none
+
+.checkbox input[type="checkbox"]after,
+.checkbox-inline input[type="checkbox"]after
+  border 2px solid
+  border-radius 2px
+  content ''
+  display block
+  height 18px
+  -webkit-transition 240ms
+  -o-transition 240ms
+  transition 240ms
+  width 18px
+
+.checkbox input[type="checkbox"]checkedbefore,
+.checkbox-inline input[type="checkbox"]checkedbefore
+  -webkit-transform rotate(45deg)
+  -ms-transform rotate(45deg)
+  transform rotate(45deg)
+  position absolute
+  left 6px
+  top 0
+  display table
+  width 6px
+  height 12px
+  border 2px solid #fff
+  border-top 0
+  border-left 0
+  content ''
+
+.checkboxcheckedafter,
+.checkbox-inlinecheckedafter
+  background-color #0c84e4
+  border-color #0c84e4
+
+.checkboxdisabledcheckedafter,
+.checkbox-inlinedisabledcheckedafter
+  background-color rgba(0, 0, 0, 0.26)
+  border-color transparent
+
+formvalid ~ .downloadLogo
+  display block
